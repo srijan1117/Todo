@@ -100,3 +100,11 @@
     white-space: normal;
   }
 }
+.top-right {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  font-size: 32px;
+  font-weight: 500;
+}

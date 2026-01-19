@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useEffect, useState } from 'react';
+import DigitalClock from './DigitalClock';
 
 function App() {
   const [input, setInput] = useState('');
@@ -91,6 +92,10 @@ function App() {
 
   return (
     <>
+      <div className="top-right">
+        <DigitalClock/>
+      </div>
+
       <div className="mb-3 text-center">
         <h2 className="fw-bold">To do Lists - Add tasks</h2>
         <div className="div">
