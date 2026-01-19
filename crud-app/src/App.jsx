@@ -9,7 +9,7 @@ function App() {
   const [editText, setEditText] = useState('');
   const [editId, setEditId] = useState(null);
 
-  const API_URL = "http://localhost:5000/todos";
+  const API_URL = "https://todo-lphv.onrender.com";
 
   useEffect(() => {
     fetch(API_URL)
